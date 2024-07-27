@@ -1,0 +1,64 @@
+body{
+
+    background-color: black;
+    background-image: url(pexels-valeriya-1639562.jpg);
+    margin-top: 20px;
+    
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.zo{
+    color: red;
+    border-bottom: 5px solid red;
+    border-radius: 40px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    display: flex;
+    list-style: none;
+    margin-inline: 30px;
+}
+.btn button{
+     margin-top: 20px;
+    width: 150px;
+    height: 40px;
+
+    border: 3px solid red;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn button:active{
+    background-color: aquamarine;
+}
+.main div{
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+.main div.head{
+    font-size: 40px;
+    margin-left: 40px;
+    color: white;
+}
+
+
+h6{
+    text-decoration-style: wavy;
+    
+}
